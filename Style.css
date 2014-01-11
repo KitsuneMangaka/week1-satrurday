@@ -1,0 +1,61 @@
+@media only screen and (min-width: 500px) {
+	/*this is for big screens*/
+			body { 
+				background-image: url(http://fc02.deviantart.net/fs71/i/2011/091/5/3/portal_2_iii_wallpaper_by_vaultman-d3cyt7i.png); 
+			}
+
+			@media only screen and (min-width: 500px) {
+	/*this is for big screens*/
+			body { 
+				background-image: url(http://fc02.deviantart.net/fs71/i/2011/091/5/3/portal_2_iii_wallpaper_by_vaultman-d3cyt7i.png); 
+			}
+	}
+body{
+	height: 100%;
+	margin:0;
+	background-size:100%;
+
+}
+body div{
+	opacity:0.75;
+	
+}
+
+div {
+	opacity: 0.75;
+	background-color: rgba(47, 112, 181, 0.529412);
+	border: 1px solid rgba(255,255,255,0.1);
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	border-radius: 3px;
+	margin-left: 280px;
+	left: 50%;
+	right: auto;
+	margin-top: 0;
+	max-width: 400px;
+	padding-left: 20px;
+}
+
+@media only screen and (max-width: 599px) {
+	body {
+		background-image: url("images/lol.jpg");
+		background-size: cover;
+	}
+	div {
+			margin-left: 15% ;
+	}
+}
+
+h1, p{
+	font-family: helvetica;
+ 	color:#FFB300;
+
+}
+p{
+	color:#ffffff;
+}
+img{
+	width: 300px;
+	opacity:600;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+
+}
